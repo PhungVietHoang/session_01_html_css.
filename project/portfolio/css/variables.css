@@ -13,3 +13,11 @@
 .menu-toggle:checked ~ nav {
   display: flex;
 }
+
+body {
+  background-color: var(
+    --color-secondary
+  ); /* Sử dụng biến màu tím đã khai báo */
+  color: var(--color-text); /* Sử dụng biến màu chữ */
+  font-family: var(--font-main); /* Sử dụng biến font chữ */
+}
